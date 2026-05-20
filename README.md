@@ -1,4 +1,4 @@
-## Shin Jiun
+## Jiun Shin 
 
 Mobile engineer based in London.
 
