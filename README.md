@@ -1,6 +1,6 @@
 ## Jiun Shin 
 
-Mobile engineer based in London.
+Software engineer based in London.
 
 ### Open Source Highlights
 
