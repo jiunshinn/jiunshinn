@@ -13,4 +13,4 @@ Software engineer based in London.
 
 ### Tech
 
-React Native · Expo · React · TypeScript · Kotlin · Swift
+React Native · Expo · React.js · Next.js · TypeScript · Kotlin · Swift
