@@ -4,6 +4,7 @@ Software engineer based in London.
 
 ### Open Source Highlights
 
+- **[facebook/astryx #3744](https://github.com/facebook/astryx/pull/3744)** — Filled the ContextMenu family's docsite gaps: playground defaults for ContextMenu and ContextMenuItem, plus a ContextMenuItem showcase and example blocks mirroring the DropdownMenuItem patterns.
 - **[facebook/astryx #3616](https://github.com/facebook/astryx/pull/3616)** — Fixed the Astryx docsite's empty Properties preview for full-viewport overlay components by adding a `playground.overlay` config and an "Open preview" bridge into playground state.
 - **[facebook/astryx #3686](https://github.com/facebook/astryx/pull/3686)** — Extended the `playground.overlay` preview mode to Lightbox, following maintainer direction to reuse it across closed-while-hidden overlays.
 - **[expo/expo #46930](https://github.com/expo/expo/pull/46930)** — Fixed an `NSHashTable` thread-safety crash in `expo-video` by guarding the iOS player registries with a synchronized hash table.
