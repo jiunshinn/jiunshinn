@@ -23,7 +23,7 @@ Software engineer based in London.
 - [#3686](https://github.com/facebook/astryx/pull/3686) — Docsite: extended the `playground.overlay` preview mode to Lightbox
 - [#3616](https://github.com/facebook/astryx/pull/3616) — Docsite: "Open preview" bridge for closed-while-hidden overlay components
 
-**[expo/expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)**
+**[expo/expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** - framework for building react native app
 
 - [#46930](https://github.com/expo/expo/pull/46930) — `expo-video`: thread-safe iOS player registries
 - [#46029](https://github.com/expo/expo/pull/46029) — `expo-task-manager`: `consumerProguardFiles` wiring for bundled R8 keep rules
