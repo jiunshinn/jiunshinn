@@ -13,7 +13,7 @@ Software engineer based in London.
 <summary><b>All merged PRs (13)</b></summary>
 <br/>
 
-**[facebook/astryx](https://github.com/facebook/astryx/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** — design system for internal tools
+**[facebook/astryx](https://github.com/facebook/astryx/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** — open source design system by meta
 
 - [#3882](https://github.com/facebook/astryx/pull/3882) — AspectRatio: `fit` prop for component-owned child sizing
 - [#3881](https://github.com/facebook/astryx/pull/3881) — Switch: renamed `labelSpacing` `"default"` to `"hug"`, keeping a deprecated alias
