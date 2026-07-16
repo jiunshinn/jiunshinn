@@ -8,9 +8,10 @@ Software engineer based in London.
 - **[facebook/astryx #3882](https://github.com/facebook/astryx/pull/3882)** — Added a `fit` prop to AspectRatio so the component owns child sizing instead of leaking it to consumers.
 - **[expo/expo #46930](https://github.com/expo/expo/pull/46930)** — Fixed an `NSHashTable` thread-safety crash in `expo-video` by guarding the iOS player registries with a synchronized hash table.
 - **[expo/expo #45974](https://github.com/expo/expo/pull/45974)** — Wired `consumerProguardFiles` into `expo-notifications` so the module's bundled R8 keep rules ship to consumers without manual ProGuard setup.
+- **[expo/expo #47811](https://github.com/expo/expo/pull/47811)** — Fixed `MediaLibrary.createAssetAsync` failing on Android for files larger than ~2 GB by looping `FileChannel.transferTo` (a single `sendfile` copy is capped at 2,147,479,552 bytes) until the whole file is copied.
 
 <details>
-<summary><b>All merged PRs (13)</b></summary>
+<summary><b>All merged PRs (14)</b></summary>
 <br/>
 
 **[facebook/astryx](https://github.com/facebook/astryx/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** — open source design system by meta
@@ -25,6 +26,7 @@ Software engineer based in London.
 
 **[expo/expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** 
 
+- [#47811](https://github.com/expo/expo/pull/47811) — `expo-media-library`: loop `transferTo` to copy files larger than ~2 GB
 - [#46930](https://github.com/expo/expo/pull/46930) — `expo-video`: thread-safe iOS player registries
 - [#46029](https://github.com/expo/expo/pull/46029) — `expo-task-manager`: `consumerProguardFiles` wiring for bundled R8 keep rules
 - [#45974](https://github.com/expo/expo/pull/45974) — `expo-notifications`: `consumerProguardFiles` wiring for bundled R8 keep rules
