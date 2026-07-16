@@ -7,8 +7,9 @@ Software engineer based in London.
 - **[facebook/astryx #3616](https://github.com/facebook/astryx/pull/3616)** — Fixed the Astryx docsite's empty Properties preview for full-viewport overlay components by adding a `playground.overlay` config and an "Open preview" bridge into playground state.
 - **[facebook/astryx #3882](https://github.com/facebook/astryx/pull/3882)** — Added a `fit` prop to AspectRatio so the component owns child sizing instead of leaking it to consumers.
 - **[expo/expo #46930](https://github.com/expo/expo/pull/46930)** — Fixed an `NSHashTable` thread-safety crash in `expo-video` by guarding the iOS player registries with a synchronized hash table.
-- **[expo/expo #45974](https://github.com/expo/expo/pull/45974)** — Wired `consumerProguardFiles` into `expo-notifications` so the module's bundled R8 keep rules ship to consumers without manual ProGuard setup.
 - **[expo/expo #47811](https://github.com/expo/expo/pull/47811)** — Fixed `MediaLibrary.createAssetAsync` failing on Android for files larger than ~2 GB by looping `FileChannel.transferTo` (a single `sendfile` copy is capped at 2,147,479,552 bytes) until the whole file is copied.
+- **[expo/expo #45974](https://github.com/expo/expo/pull/45974)** — Wired `consumerProguardFiles` into `expo-notifications` so the module's bundled R8 keep rules ship to consumers without manual ProGuard setup.
+
 
 <details>
 <summary><b>All merged PRs (14)</b></summary>
