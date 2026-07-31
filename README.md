@@ -16,7 +16,7 @@ e-mail : jiun.shin.uk@gmail.com
 
 
 <details>
-<summary><b>All merged PRs (21)</b></summary>
+<summary><b>All merged PRs </b></summary>
 <br/>
 
 **[facebook/astryx](https://github.com/facebook/astryx/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** — open source design system by meta
