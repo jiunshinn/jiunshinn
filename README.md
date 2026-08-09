@@ -2,7 +2,7 @@
 
 Software engineer based in Seoul, Korea.
 
-e-mail : jiun.shin.uk@gmail.com
+e-mail : jiun.dev@gmail.com
 
 ### Open Source Highlights
 
