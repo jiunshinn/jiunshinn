@@ -1,6 +1,6 @@
 ## Jiun Shin 
 
-Software engineer based in London.
+Software engineer based in Seoul, Korea.
 
 e-mail : jiun.shin.uk@gmail.com
 
