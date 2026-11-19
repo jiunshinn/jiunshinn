@@ -1,65 +1,68 @@
-## Jiun Shin 
+## Jiun Shin
 
-Software engineer based in Seoul, Korea.
+Software engineer in Seoul, Korea. I build mobile and web apps with React Native, Expo, and TypeScript, and I contribute to open source.
 
-e-mail : jiun.dev@gmail.com
+📫 jiun.dev@gmail.com
 
-### Open Source Highlights
+**Tech:** React Native · Expo · React · Next.js · TypeScript · Kotlin · Swift
 
-- **[expo/expo #47877](https://github.com/expo/expo/pull/47877)** — Added `maxWidth`/`maxHeight` options to `expo-image-manipulator` that bound the image while it is decoded (iOS/Android/web), so large photos never materialize a full-sized bitmap — peak memory for a 12000×9000 JPEG dropped from +1242 MB to +50 MB, fixing the out-of-memory terminations on iOS.
-- **[expo/expo #46930](https://github.com/expo/expo/pull/46930)** — Fixed an `NSHashTable` thread-safety crash in `expo-video` by guarding the iOS player registries with a synchronized hash table.
-- **[expo/expo #47811](https://github.com/expo/expo/pull/47811)** — Fixed `MediaLibrary.createAssetAsync` failing on Android for files larger than ~2 GB by looping `FileChannel.transferTo` (a single `sendfile` copy is capped at 2,147,479,552 bytes) until the whole file is copied.
-- **[expo/expo #47881](https://github.com/expo/expo/pull/47881)** — Fixed `responsiveOrientationWhenOrientationLocked` being ignored in `expo-camera`, so photo and video capture honor the responsive orientation on iOS.
-- **[expo/expo #45974](https://github.com/expo/expo/pull/45974)** — Wired `consumerProguardFiles` into `expo-notifications` so the module's bundled R8 keep rules ship to consumers without manual ProGuard setup.
-- **[facebook/astryx #3616](https://github.com/facebook/astryx/pull/3616)** — Fixed the Astryx docsite's empty Properties preview for full-viewport overlay components by adding a `playground.overlay` config and an "Open preview" bridge into playground state.
-- **[facebook/astryx #3882](https://github.com/facebook/astryx/pull/3882)** — Added a `fit` prop to AspectRatio so the component owns child sizing instead of leaking it to consumers.
-- **[facebook/astryx #4204](https://github.com/facebook/astryx/pull/4204)** — Fixed the Astryx CLI emitting theme override keys that didn't match the class names components actually render — 15 override keys were silently doing nothing.
+### Open Source
 
+| Project | Merged PRs |
+|---|---|
+| [expo/expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) | 6 |
+| [facebook/astryx](https://github.com/facebook/astryx/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) — Meta's open source design system | 17 |
+| [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) | 2 |
+| [spacedriveapp/spacebot](https://github.com/spacedriveapp/spacebot/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) | 1 |
+
+**Highlights**
+
+- [expo #47877](https://github.com/expo/expo/pull/47877) — `expo-image-manipulator`: downsample while decoding. Peak memory for a 12000×9000 JPEG: 1242 MB → 50 MB.
+- [expo #47811](https://github.com/expo/expo/pull/47811) — `expo-media-library`: fixed Android saves failing for files over ~2 GB.
+- [expo #46930](https://github.com/expo/expo/pull/46930) — `expo-video`: fixed an iOS thread-safety crash in the player registries.
+- [astryx #4204](https://github.com/facebook/astryx/pull/4204) — CLI: fixed 15 theme override keys that silently did nothing.
+- [astryx #3616](https://github.com/facebook/astryx/pull/3616) — Docsite: preview support for full-viewport overlay components.
 
 <details>
-<summary><b>All merged PRs </b></summary>
+<summary><b>All merged PRs</b></summary>
 <br/>
 
-**[expo/expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** 
+**expo/expo**
 
 - [#47881](https://github.com/expo/expo/pull/47881) — `expo-camera`: honor `responsiveOrientationWhenOrientationLocked` for photo and video capture
-- [#47877](https://github.com/expo/expo/pull/47877) — `expo-image-manipulator`: `maxWidth`/`maxHeight` options that downsample while decoding (iOS/Android/web)
+- [#47877](https://github.com/expo/expo/pull/47877) — `expo-image-manipulator`: `maxWidth`/`maxHeight` options that downsample while decoding
 - [#47811](https://github.com/expo/expo/pull/47811) — `expo-media-library`: loop `transferTo` to copy files larger than ~2 GB
 - [#46930](https://github.com/expo/expo/pull/46930) — `expo-video`: thread-safe iOS player registries
 - [#46029](https://github.com/expo/expo/pull/46029) — `expo-task-manager`: `consumerProguardFiles` wiring for bundled R8 keep rules
 - [#45974](https://github.com/expo/expo/pull/45974) — `expo-notifications`: `consumerProguardFiles` wiring for bundled R8 keep rules
 
-**[facebook/astryx](https://github.com/facebook/astryx/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged)** — open source design system by meta
+**facebook/astryx**
 
-- [#4204](https://github.com/facebook/astryx/pull/4204) — CLI: theme override keys now match the class names components actually render
+- [#4204](https://github.com/facebook/astryx/pull/4204) — CLI: theme override keys now match the class names components render
 - [#4202](https://github.com/facebook/astryx/pull/4202) — ChatLayout: flex-column root so the sticky dock doesn't add phantom scroll height
 - [#4036](https://github.com/facebook/astryx/pull/4036) — Table: cleaned up selection row subscriptions
 - [#3932](https://github.com/facebook/astryx/pull/3932) — EmptyState docs: clarified `headingLevel` is semantic-only
 - [#3882](https://github.com/facebook/astryx/pull/3882) — AspectRatio: `fit` prop for component-owned child sizing
 - [#3881](https://github.com/facebook/astryx/pull/3881) — Switch: renamed `labelSpacing` `"default"` to `"hug"`, keeping a deprecated alias
-- [#3880](https://github.com/facebook/astryx/pull/3880) — Docsite: surfaced prop type definitions in the props table
-- [#3878](https://github.com/facebook/astryx/pull/3878) — Docsite: static props table for provider/utility pages instead of a playground
-- [#3875](https://github.com/facebook/astryx/pull/3875) — Button: added a `width` prop
-- [#3874](https://github.com/facebook/astryx/pull/3874) — Templates: replaced the IDE terminal's raw sizing div with Stack height
-- [#3873](https://github.com/facebook/astryx/pull/3873) — Docsite: exposed body and muted background tokens in the theme editor quick-edit
+- [#3880](https://github.com/facebook/astryx/pull/3880) — Docsite: prop type definitions in the props table
+- [#3878](https://github.com/facebook/astryx/pull/3878) — Docsite: static props table for provider/utility pages
+- [#3875](https://github.com/facebook/astryx/pull/3875) — Button: `width` prop
+- [#3874](https://github.com/facebook/astryx/pull/3874) — Templates: Stack height instead of a raw sizing div in the IDE terminal
+- [#3873](https://github.com/facebook/astryx/pull/3873) — Docsite: body and muted background tokens in the theme editor quick-edit
 - [#3759](https://github.com/facebook/astryx/pull/3759) — Migration guide: cascade-layer safety checklist and foundation smoke test
-- [#3749](https://github.com/facebook/astryx/pull/3749) — Refactor: migrated the charts/lab color parsers onto the shared core color utils
+- [#3749](https://github.com/facebook/astryx/pull/3749) — Refactor: charts/lab color parsers moved onto the shared core color utils
 - [#3748](https://github.com/facebook/astryx/pull/3748) — Review tooling: content-based visual signal for `needs:design-review`
-- [#3744](https://github.com/facebook/astryx/pull/3744) — Docsite: ContextMenu playground defaults, ContextMenuItem showcase and examples
-- [#3686](https://github.com/facebook/astryx/pull/3686) — Docsite: extended the `playground.overlay` preview mode to Lightbox
-- [#3616](https://github.com/facebook/astryx/pull/3616) — Docsite: "Open preview" bridge for closed-while-hidden overlay components
+- [#3744](https://github.com/facebook/astryx/pull/3744) — Docsite: ContextMenu playground defaults, showcase, and examples
+- [#3686](https://github.com/facebook/astryx/pull/3686) — Docsite: `playground.overlay` preview mode for Lightbox
+- [#3616](https://github.com/facebook/astryx/pull/3616) — Docsite: "Open preview" bridge for overlay components
 
-**[EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim)**
+**EvanBacon/serve-sim**
 
 - [#12](https://github.com/EvanBacon/serve-sim/pull/12) — Fixed duplicate preview windows when the simulator restarted
 - [#8](https://github.com/EvanBacon/serve-sim/pull/8) — Made the CLI Node-runnable so `npm install` is the only setup step
 
-**[spacedriveapp/spacebot](https://github.com/spacedriveapp/spacebot)**
+**spacedriveapp/spacebot**
 
 - [#1](https://github.com/spacedriveapp/spacebot/pull/1) — Added a native Z.ai (GLM) provider
 
 </details>
-
-### Tech
-
-React Native · Expo · React.js · Next.js · TypeScript · Kotlin · Swift
