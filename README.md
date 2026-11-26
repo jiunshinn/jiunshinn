@@ -1,10 +1,8 @@
 ## Jiun Shin
 
-Software engineer in Seoul, Korea. I build mobile and web apps with React Native, Expo, and TypeScript, and I contribute to open source.
+Software engineer in Seoul, Korea. 
 
-📫 jiun.dev@gmail.com
-
-**Tech:** React Native · Expo · React · Next.js · TypeScript · Kotlin · Swift
+e-amil: jiun.dev@gmail.com
 
 ### Open Source
 
@@ -58,9 +56,5 @@ Software engineer in Seoul, Korea. I build mobile and web apps with React Native
 
 - [#12](https://github.com/EvanBacon/serve-sim/pull/12) — Fixed duplicate preview windows when the simulator restarted
 - [#8](https://github.com/EvanBacon/serve-sim/pull/8) — Made the CLI Node-runnable so `npm install` is the only setup step
-
-**spacedriveapp/spacebot**
-
-- [#1](https://github.com/spacedriveapp/spacebot/pull/1) — Added a native Z.ai (GLM) provider
 
 </details>
