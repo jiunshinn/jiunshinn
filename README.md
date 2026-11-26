@@ -12,8 +12,6 @@ Software engineer in Seoul, Korea. I build mobile and web apps with React Native
 |---|---|
 | [expo/expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) | 8 |
 | [facebook/astryx](https://github.com/facebook/astryx/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) — Meta's open source design system | 17 |
-| [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) | 2 |
-| [spacedriveapp/spacebot](https://github.com/spacedriveapp/spacebot/pulls?q=is%3Apr+author%3Ajiunshinn+is%3Amerged) | 1 |
 
 **Highlights**
 
